@@ -1,0 +1,33 @@
+// <script setup>
+// import { ref } from 'vue';
+// import { postData } from '@/services/apiClient';
+
+// const formData = ref({
+//   name: '',
+//   email: ''
+// });
+
+// const success = ref(false);
+// const error = ref(null);
+
+// const submitForm = async () => {
+//   try {
+//     const response = await postData('/ruta/post', formData.value);
+//     console.log('Respuesta del servidor:', response);
+//     success.value = true;
+//   } catch (err) {
+//     error.value = err.message;
+//   }
+// };
+// </script>
+
+// <template>
+//   <form @submit.prevent="submitForm">
+//     <input v-model="formData.name" placeholder="Nombre" />
+//     <input v-model="formData.email" placeholder="Correo" />
+//     <button type="submit">Enviar</button>
+//   </form>
+
+//   <div v-if="success">¡Formulario enviado con éxito!</div>
+//   <div v-if="error">{{ error }}</div>
+// </template>

@@ -1,0 +1,4 @@
+•	/layouts: Si tu aplicación tiene diferentes plantillas (layouts) para distintas secciones (por ejemplo, una para administración y otra para usuarios), puedes definirlos aquí.
+/layouts
+  MainLayout.vue
+  AdminLayout.vue

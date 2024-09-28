@@ -1,0 +1,5 @@
+	/composables: Esta carpeta es muy útil para Composition API. Aquí van todos tus composables reutilizables, como funciones lógicas que pueden ser compartidas entre componentes.
+/composables
+  useAuth.js
+  useFetch.js
+

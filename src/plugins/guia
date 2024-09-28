@@ -1,0 +1,6 @@
+•	/plugins: Archivos donde registras plugins globales o configuraciones que serán usadas a lo largo de la app (como el registro de librerías externas).
+/plugins
+  axios.js
+	axios.default.baseurl=etapaspracticas/api
+	axios.default.baseurl = loacalhost:4500/api
+	axios.headers= {“x-token”:token}

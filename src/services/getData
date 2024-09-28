@@ -1,0 +1,25 @@
+{/* <script setup>
+import { ref, onMounted } from 'vue';
+import { getData } from '@/services/apiClient';
+
+const data = ref(null);
+const error = ref(null);
+const loading = ref(false);
+
+onMounted(async () => {
+  loading.value = true;
+  try {
+    data.value = await getData('/ruta/datos', { param1: 'value' });
+  } catch (err) {
+    error.value = err.message;
+  } finally {
+    loading.value = false;
+  }
+});
+</script>
+
+<template>
+  <div v-if="loading">Cargando...</div>
+  <div v-else-if="error">{{ error }}</div>
+  <div v-else>{{ data }}</div>
+</template> */}

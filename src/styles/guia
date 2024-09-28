@@ -1,0 +1,4 @@
+•	/styles: Todos los estilos globales y archivos de configuración de CSS/SCSS.
+/styles
+  variables.scss
+  main.scss

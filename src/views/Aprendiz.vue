@@ -1,4 +1,4 @@
-<!-- <template>
+ <template>
     <div>
         <AppButton  ></AppButton>
     </div>
@@ -7,4 +7,4 @@
 <script setup>
 import AppButton from "./AppButton.vue"
 
-</script> -->
+</script>

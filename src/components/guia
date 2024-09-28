@@ -1,0 +1,5 @@
+•	/components: Todos tus componentes reutilizables que no dependen de una vista en particular. Organízalos por características o funcionalidades. Ejemplo:
+/components
+  /Buttons
+	/Tables
+	/Encabezados

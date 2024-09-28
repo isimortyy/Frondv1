@@ -1,0 +1,4 @@
+•	/utils: Funciones o clases auxiliares que no pertenecen necesariamente a la lógica de negocio o a los componentes (como validaciones, formatos de fecha, etc.).
+/utils
+  formatDate.js
+  validateEmail.js

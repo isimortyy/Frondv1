@@ -1,0 +1,33 @@
+// <script setup>
+// import { ref } from 'vue';
+// import { putData } from '@/services/apiClient';
+
+// const formData = ref({
+//   name: '',
+//   email: ''
+// });
+
+// const success = ref(false);
+// const error = ref(null);
+
+// const updateForm = async () => {
+//   try {
+//     const response = await putData('/ruta/put/1', formData.value);
+//     console.log('Actualización exitosa:', response);
+//     success.value = true;
+//   } catch (err) {
+//     error.value = err.message;
+//   }
+// };
+// </script>
+
+// <template>
+//   <form @submit.prevent="updateForm">
+//     <input v-model="formData.name" placeholder="Nombre" />
+//     <input v-model="formData.email" placeholder="Correo" />
+//     <button type="submit">Actualizar</button>
+//   </form>
+
+//   <div v-if="success">¡Actualización exitosa!</div>
+//   <div v-if="error">{{ error }}</div>
+// </template>

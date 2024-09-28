@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
     <div>
         <button @click="handleClick">{{ props.label }}</button>
     </div>
@@ -29,4 +29,5 @@ button{
     color: white;
     border: 1px solid black;
 }
-</style> -->
+</style>
+
